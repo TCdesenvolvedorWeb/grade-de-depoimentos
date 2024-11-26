@@ -1,0 +1,112 @@
+body{
+    background-color: hsl(0, 0%, 81%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    font-size: 13px;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    gap: 30px;
+    justify-content: center;
+    grid-template-areas: 
+    "relatório-1 relatório-1 relatório-2 relatório-5"
+    "relatório-1 relatório-1 relatório-2 relatório-5"
+    "relatório-1 relatório-1 relatório-2 relatório-5"
+    "relatório-3 relatório-4 relatório-4 relatório-5" 
+    "relatório-3 relatório-4 relatório-4 relatório-5" 
+    "relatório-3 relatório-4 relatório-4 relatório-5" 
+    ;
+}
+
+.container .item{
+    border-radius: 10px;
+    padding: 30px;
+    
+}
+
+.container .item-texto{
+    color: hsl(210, 46%, 95%);
+}
+
+.título-destaque {
+    margin-bottom: 30px;
+}
+
+.item p{
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.informação .claro{
+    color: hsl(0, 0%, 81%) ;
+}
+
+.depoimento.claro{
+    color: hsl(0, 0%, 81%);
+}
+
+.depoimento{
+    color: hsl(217, 19%, 35%);
+}
+.container .relatório-1 {
+    grid-area: relatório-1;
+    background: hsl(263, 55%, 52%);
+    max-width: 700px;
+    padding: 40px;
+}
+
+.container .relatório-2 {
+    grid-area: relatório-2;
+    background-color: hsl(217, 19%, 35%);
+    max-width: 300px;
+}
+.container .relatório-3 {
+    grid-area: relatório-3;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 300px;
+    color: hsl(217, 19%, 35%);
+}
+
+.container .relatório-4 {
+    grid-area: relatório-4;
+    background-color: hsl(219, 29%, 14%);
+    max-width: 700px;
+}
+.container .relatório-5 {
+    grid-area: relatório-5;
+    background-color: hsl(0, 0%, 100%);
+    max-width: 300px;
+    color: hsl(217, 19%, 35%);
+}
+
+.perfil .imagem{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+.perfil .imagem img{
+    width: 40px;
+    border-radius: 100px;
+    margin-right: 20px;
+    border: solid;
+}
+
+.perfil .imagem .borda-branca{
+    color: hsl(0, 0%, 100%);
+}
+.relatório-1 .imagem img{
+    color: hsl(217, 19%, 35%);
+}
+.relatório-2 .imagem img{
+    color: hsl(217, 19%, 35%);
+}
+.relatório-4 .imagem img{
+    color: hsl(263, 55%, 52%);
+}
